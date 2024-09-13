@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ООО ПРОФСЕРТ – Орган по сертификации продукции</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #002366;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .certificates {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .certificates img {
+            width: 150px;
+            height: auto;
+            border: 2px solid #333;
+        }
+        .form-section {
+            background-color: #e0e0e0;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #002366;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #002366;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ООО ПРОФСЕРТ – Орган по сертификации продукции</h1>
+    <p>Сертификация, аудит и консультации по международным стандартам</p>
+</header>
+
+<section>
+    <h2>Наши услуги</h2>
+    <ul>
+        <li>Сертификация продукции в соответствии с международными и национальными стандартами</li>
+        <li>Аудит систем менеджмента качества, экологии и безопасности</li>
+        <li>Консультационные услуги по вопросам сертификации и стандартизации</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Наши сертификаты</h2>
+    <div class="certificates">
+        <a href="Profcert.ru.pdf" download><img src="certificate_ru.png" alt="Сертификат на русском"></a>
+        <a href="Profcert.en.pdf" download><img src="certificate_en.png" alt="Сертификат на английском"></a>
+        <a href="Profcert.am.pdf" download><img src="certificate_am.png" alt="Сертификат на армянском"></a>
+    </div>
+</section>
+
+<section class="form-section">
+    <h2>Оставить заявку на консультацию</h2>
+    <form action="mailto:yelena.ghazanchyan@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="email" name="email" placeholder="Ваш email" required>
+        <input type="tel" name="phone" placeholder="Ваш телефон" required>
+        <textarea name="message" placeholder="Сообщение" required></textarea>
+        <button type="submit">Отправить</button>
+    </form>
+</section>
+
+<section class="form-section">
+    <h2>Задать вопрос</h2>
+    <form action="mailto:yelena.ghazanchyan@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="email" name="email" placeholder="Ваш email" required>
+        <textarea name="question" placeholder="Ваш вопрос" required></textarea>
+        <button type="submit">Задать вопрос</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2024 ООО ПРОФСЕРТ | Адрес: Ереван, улица Севкареци Сако 59 | Телефон: +374 93 91 19 83 | Email: contact@profcert.am</p>
+</footer>
+
+</body>
+</html>
